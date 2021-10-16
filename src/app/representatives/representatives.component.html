@@ -1,0 +1,16 @@
+<div class="container-fluid" style="margin-top: 1%; width: 90%;">
+    <div class="row">
+        <div *ngFor="let dept of repMap.keys()" class="col-md-3 col-sm-6 col-xs-12">
+            <mat-card class="mat-elevation-z5">
+                <mat-card-title class="mat-elevation-z4 customFont">
+                    {{dept}}
+                </mat-card-title>
+                <mat-card-content class="customFont">
+                    <div *ngFor="let name of repMap.get(dept)">
+                        {{name}}
+                    </div>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+</div>

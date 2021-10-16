@@ -1,0 +1,41 @@
+.customFont {
+    font-family: Kalpurush;
+    font-size: 1.1rem;
+}
+
+.container-fluid {
+    margin-top: 1%;
+    margin-bottom: 60px;
+    width: 90%;
+}
+
+.imageCard {
+    /* height: 100%; */
+    /* width: 100%;
+    outline: none; */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.eventDetails {
+    text-align: justify;
+    padding: 1.5vw;
+    border-radius: 10px;
+    line-height: 20px
+}
+
+.closed, .opened {
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+}
+
+.opened {
+    background-color: #3F51B5;
+}
+
+.closed {
+    background-color: #FF7043;
+}

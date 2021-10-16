@@ -1,0 +1,64 @@
+<div class="container-fluid">
+  <div *ngFor="let timeline of activitiesDateWiseMap.keys()">
+    <!-- Expansion panel -->
+    <mat-expansion-panel #thisPanel class="mat-elevation-z4"
+      style="border-radius: 15px; margin-bottom: 30px; background-color:whitesmoke;">
+      <!-- header starts here -->
+      <mat-expansion-panel-header class="mat-elevation-z3" style="margin-bottom: 10px;  background-color: whitesmoke">
+        <mat-panel-title>
+        </mat-panel-title>
+        <mat-panel-description style="color: black; font-weight: 600; font-size: 1.1rem; padding-top: 10px;"
+          class="customFont">
+          {{timeline}}
+        </mat-panel-description>
+        <span *ngIf="thisPanel.expanded" class="mat-elevation-z2 customFont closed">বন্ধ
+          কৰক</span>
+        <span *ngIf="!thisPanel.expanded" class="mat-elevation-z2 customFont opened">খোলক</span>
+      </mat-expansion-panel-header>
+      <!-- expansion panel body starts here 
+      Main activitied details-->
+      <ng-template matExpansionPanelContent>
+        <!-- sub expansion panel -->
+        <div *ngFor="let date of activitiesDateWiseMap.get(timeline)" style="margin-bottom: 20px;">
+          <mat-expansion-panel #thisSubPanel class="mat-elevation-z4" [disabled]="checkExpansionAvailability(timeline)"
+            style="border-radius: 10px; margin-bottom: 5px; background-color:whitesmoke;">
+            <mat-expansion-panel-header class="mat-elevation-z3"
+              style="margin-bottom: 10px;  background-color: whitesmoke">
+              <mat-panel-title class="customFont"
+                style=" color: black;font-weight: 600;font-size: 1.1rem;padding-top: 10px;">
+                {{getTitle(date)}}
+              </mat-panel-title>
+              <mat-panel-description style="color: black; font-weight: 600; font-size: 1.1rem; padding-top: 10px;"
+                class="customFont">{{date}}
+              </mat-panel-description>
+              <span *ngIf="thisSubPanel.expanded"
+                class="mat-elevation-z2 customFont closed">{{thisSubPanel.disabled?'অপেক্ষা':'বন্ধ'}}
+                কৰক</span>
+              <span *ngIf="!thisSubPanel.expanded"
+                class="mat-elevation-z2 customFont opened">{{thisSubPanel.disabled?'অপেক্ষা কৰক':'খোলক'}}</span>
+            </mat-expansion-panel-header>
+            <ng-template matExpansionPanelContent>
+              <div *ngIf="showItem(date)">
+                <div style="text-align: center; margin-bottom: 10px;">
+                  <ngb-carousel *ngIf="showCarousel(date)" [showNavigationArrows]="false"
+                    [showNavigationIndicators]="true" [interval]="7000" [keyboard]="true" [pauseOnHover]="false"
+                    [wrap]="true">
+                    <ng-template ngbSlide *ngFor="let url of getImageUrls(date)">
+                      <div class="picsum-img-wrapper">
+                        <img class="mat-elevation-z5 imageCard" [src]="url">
+                      </div>
+                    </ng-template>
+                  </ngb-carousel>
+                </div>
+                <div class="mat-elevation-z4 customFont eventDetails">
+                  <div *ngFor="let content of getContents(date)">
+                    &nbsp;&nbsp;&nbsp;{{content}}</div>
+                </div>
+              </div>
+            </ng-template>
+          </mat-expansion-panel>
+        </div>
+      </ng-template>
+    </mat-expansion-panel>
+  </div>
+</div>

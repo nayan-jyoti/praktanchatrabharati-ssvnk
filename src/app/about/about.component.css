@@ -1,0 +1,75 @@
+.customFont {
+    font-family: Kalpurush;
+    font-size: 1.12em;
+}
+
+.container-fluid {
+    margin-top: 2%;
+    margin-bottom: 70px;
+    width: 70%;
+}
+
+.customCard {
+    border-radius: 10px;
+    padding: 20px;
+    /* background-color: #E8F3F6; */
+    background-color: whitesmoke;
+}
+
+.customContactCard, .customContactCardEmail {
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.customContactCardEmail {
+    font-family: Roboto;
+    font-style: italic;
+    color: rgb(57, 57, 245);
+}
+
+.mapContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 125%;
+    border-radius: 10px;
+}
+
+.responsive-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    /* border: none; */
+    border-radius: 10px;
+}
+
+mat-icon {
+    font-size: 3em;
+    color: #3f51b5;
+}
+
+.imageCard {
+    /* position: relative; */
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imageAndContactText {
+    font-size: 1.10em;
+    text-align: center;
+    color: black;
+    /* position: relative; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 10px;
+    /* border: none; */
+}

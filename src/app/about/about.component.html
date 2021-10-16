@@ -1,0 +1,66 @@
+<div class="container-fluid">
+    <div class="mat-elevation-z5 customCard">
+        <!-- first row with contact cards -->
+        <div>
+            <div class="row customFont" style="text-align: center;">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="mat-elevation-z6 customContactCard">
+                        <mat-icon>place</mat-icon>
+                        <div>
+                            {{schoolName}}
+                        </div>
+                        <div>
+                            {{aboutAndContactAddress}}, {{aboutAndContactAddressPin}}
+                        </div>
+                        <div>{{aboutAndContactAddressDistrict}},
+                            {{aboutAndContactAddressState}}
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="mat-elevation-z6 customContactCard">
+                        <mat-icon>call</mat-icon>
+                        <div *ngFor="let no of aboutAndContactConnectViaNumberMap.keys()">
+                            <div> <span style="color: rgb(57, 57, 245);"> {{no}}</span>&nbsp;
+                                ({{aboutAndContactConnectViaNumberMap.get(no)}})</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <div class="mat-elevation-z6 customContactCardEmail">
+                        <mat-icon>email</mat-icon>
+                        <div>
+                            {{aboutAndContactConnectViaEmail}}
+                        </div>
+                        <div>
+                            @
+                        </div>
+                        <div>
+                            {{emailDomain}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next row starts with basic info and map -->
+        <div class="row" style="margin-top: 3%;">
+            <div class="col-md-7 col-sm-6 customFont">
+                <div class="mat-elevation-z6 imageAndContactText">
+                    <img class="img-fluid imageCard mat-elevation-z3" src="../../assets/img/ssvn_front - min.jpg"
+                        max-width="85%" />
+                    <div style="margin-top: 10px; padding-left: 5px; padding-right: 5px;">
+                        &nbsp;&nbsp;&nbsp;{{aboutAndContactConnectRep}}
+                        <div>{{aboutAndContactConnectThanks}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-5 col-sm-6">
+                <div class="mapContainer mat-elevation-z5">
+                    <iframe class="responsive-frame"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6222.619170998966!2d92.092705!3d26.117277!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x70a1f979a79cbea7!2sSankardev%20Vidya%20Niketan%2C%20Khetri!5e1!3m2!1sen!2sin!4v1633851494547!5m2!1sen!2sin"
+                        loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

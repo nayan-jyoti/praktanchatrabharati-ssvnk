@@ -1,0 +1,27 @@
+.customFont {
+    font-family: Kalpurush;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.mat-card {
+    margin-bottom: 1%;
+    /* background-color: #E8F3F6; */
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.container-fluid {
+    margin-top: 1%;
+    margin-bottom: 50px;
+    width: 90%;
+    overflow-y: auto;
+}
+
+.mainHeader {
+    font-family: Kalpurush;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    margin: -8px -5px 10px -5px;
+}

@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Kalpurush;
+    src: url(./assets/fonts/kalpurush.ttf) format("opentype");
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    font-family: Kalpurush;
+    font-size: 1.05em;
+    display: flex;
+    flex-direction: column;
+}

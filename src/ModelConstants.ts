@@ -39,7 +39,10 @@ export class ModelConstants {
                   "ভূমিকা দাস", "নিশিৰঞ্জন ডেকা", "ঊৰ্জ্জিতা কাশ্যপ", "দেৱভূষণ বৈশ্য", "ভূপালী ঠাকুৰীয়া", "অমিয়া উৰাং", "নিকুঞ্জলতা ডেকা", "ভৃকুমণি ডেকা", "নয়ন বৈশ্য",
                   "সুৰজিত মেধি", "জ্যোতি প্ৰসাদ তালুকদাৰ", "মৌচম কোঁৱৰ", "ধৰিত্ৰী মেধি", "কপিল ৰংপে", "কৰীণা বৰা", "ৰিজুমণি দাস", "বৰ্ণালী বৈশ্য", "মনালিছা ৰয়", "সাগৰ নাথ",
                   "ভাৰ্গৱ উৰাং", "আয়ুস্মিতা মেধি", "ৰশ্মি ঠাকুৰীয়া", "মৃণ্ময় ৰয়", "ববিতা মণ্ডল", "তপন বৰদলৈ", "কান্ত ছেত্ৰী", "জন টেৰাং", "ইন্দেশ্বৰ ৰাভা", "নয়নজিত তালুকদাৰ",
-                  "শিখামণি মেধি"]]
+                  "শিখামণি মেধি"]],
+        ["২০২২", ["অলয়  ডেকা","প্রাণজিত  ডেকা","বৰষা ডেকা","ত্ৰিদীপ ডেকা","চানক্য মেধি","প্ৰসেনজিৎ বৰ্মন","জুলি মেধি","অংকিতা গোস্বামী","অৰ্পনা ৰংপি","সুভাশিষ সাগৰ পাঠক","টিনা মনি বড়ো",
+                  "হৃষীকেশ তালুকদাৰ","মানস প্ৰতীম তালুকদাৰ","ৰোহন জ্যোতি দাস","সনাতন দাস","চিন্ময় বৈশ্য","চিন্ময় বৈশ্য","তেজশ্ৰীমন বৰুৱা","অসীম ৰাহাং","দীক্ষিতা শৰ্মা","পূজা বৈশ্য","মৃন্ময় বৰা",
+                  "সাগৰিকা দত্ত","টিকাৰাম চেষ্ঠ","কিশোৰ বৰুৱা","পলক চক্ৰবৰ্তী","পাৰ্থ প্ৰতীম মেধি","গগন দাস"]]
     ]);
     public footNoteExList: String = "* চিহ্নিত ছাত্ৰ-ছাত্ৰীসকল এই নিকেতনৰ পৰা অন্য বিদ্যালয়লৈ গৈ হাইস্কুলীয়া শিক্ষা সাং কৰে।";
     public footNoteMissingExList: String = "বি.দ্ৰ.: মাজতে নিকেতন এৰি অন্য বিদ্যালয়ৰ পৰা হাইস্কুলীয়া শিক্ষা সাং কৰা বহুতো ছাত্ৰ-ছাত্ৰীৰ নাম ইয়াত দিয়া হোৱা নাই।";
@@ -59,7 +62,7 @@ export class ModelConstants {
         +"হৈ ৰৈছে প্ৰাক্তন ছাত্ৰ-ছাত্ৰীসকল। ২০১০ চনত আমাৰ নিকেতনখনৰ পৰা প্ৰথমবাৰ হাইস্কুল শিক্ষান্ত পৰীক্ষাত অৱতীৰ্ণ হয়।  তাৰ আগত অৰ্থাৎ প্ৰতিষ্ঠাকালত নিকেতনৰ "
         +"আন্তঃগাঁথনি সম্পূৰ্ণ নোহোৱাৰ বাবে কিছু সংখ্যক ছাত্ৰ-ছাত্ৰী স্বাভাৱিকতেই প্ৰাথমিক শিক্ষা সাং কৰিয়েই অন্য বিদ্যালয়লৈ যাব লগা হৈছিল। তদুপৰি, প্ৰয়োজনবোধে মাজতে "
         +"নিকেতনৰ পৰা অন্য বিদ্যালয়লৈ গৈ হাইস্কুলীয়া শিক্ষা গ্ৰহণ কৰা ছাত্ৰ-ছাত্ৰীও আছে কিছুসংখ্যক।";
-    public homeDescriptionPresent: String = "আজিৰ দিনত, অৰ্থাৎ ২০১০ৰ পৰা ২০২১লৈকে সৰ্বমুঠ ১২টা বৰ্ষত প্ৰায় ২৫০ গৰাকীমান ছাত্ৰ-ছাত্ৰী হাইস্কুল শিক্ষান্ত "
+    public homeDescriptionPresent: String = "আজিৰ দিনত, অৰ্থাৎ ২০১০ৰ পৰা ২০২২লৈকে সৰ্বমুঠ ১৩টা বৰ্ষত প্ৰায় ২৭৫ গৰাকীমান ছাত্ৰ-ছাত্ৰী হাইস্কুল শিক্ষান্ত "
         +"পৰীক্ষাত উত্তীৰ্ণ হৈ উচ্চ শিক্ষা, ব্যৱসায়-বাণিজ্য, চাকৰী আদিত যোগদান কৰিছে। এই আটাইবোৰ ছাত্ৰ-ছাত্ৰীয়েই আজি এই নিকেতনৰ প্ৰাক্তন ছাত্ৰ ভাৰতীৰ অন্তৰ্গত। "
         +"ইয়াৰ আৰম্ভণিও আছিল আমাৰ বাবে এক গৌৰৱৰ ক্ষণ। সময়ৰ লগে লগে আমিবোৰো আগবাঢ়ি আহিলোঁ কিন্তু আমি পঢ়ি অহা বিদ্যালয়খনৰ গুণ-গৰিমা অক্ষুন্ন ৰখা "
         +"দায়িত্ব আমাৰ হাততো আছিল। এই কথা ছাত্ৰ ভাৰতীৰ প্ৰতিজন সদস্যই অনুধাৱন কৰি আহিছে বা কৰা উচিত।";
@@ -75,6 +78,7 @@ export class ModelConstants {
         +"শেষত অভিনন্দন নিকেতনত পঢ়ি থকা প্ৰতিজন ছাত্ৰ-ছাত্ৰী ও প্ৰাক্তন ছাত্ৰ ভাৰতীৰ প্ৰতিজন সদস্য-সদস্যালৈ।";
        
     public mapKeyUpodesta: String = "উপদেষ্টা";
+    public mapKeyTatvabadhayika: String = "তত্বাৱধায়িকা";
     public mapKeyPresident: String = "সভানেত্ৰী";
     public mapKeyJtSecretary: String = "যুটীয়া সম্পাদক";
     public mapKeyFinance: String = "বিত্তীয় বিভাগ";
@@ -85,7 +89,8 @@ export class ModelConstants {
     public mapKeyBatchRep: String = "বৰ্ষ বিশেষ প্ৰতিনিধি";
 
     public respresentativeMap = new Map<String, String[]>([
-        [this.mapKeyUpodesta,["শ্ৰী যুত নৰেশ্বৰ দাস", "শ্ৰী যুত ডিম্বেশ্বৰ কুমাৰ", "শ্ৰী যুতা তৃপ্তিলতা দাস ঠাকুৰীয়া"]],
+        [this.mapKeyUpodesta,["শ্ৰী যুত নৰেশ্বৰ দাস", "শ্ৰী যুত ডিম্বেশ্বৰ কুমাৰ"]],
+        [this.mapKeyTatvabadhayika,["শ্ৰী যুতা তৃপ্তিলতা দাস ঠাকুৰীয়া"]],
         [this.mapKeyPresident, ["শ্ৰী আইভি গোস্বামী"]],
         [this.mapKeyJtSecretary, ["শ্ৰী হীৰকজ্যোতি ডেকা (২০১১)", "শ্ৰী হিমাংগ বৈশ্য (২০১১)"]],
         [this.mapKeyFinance,["শ্ৰী নয়ন জ্যোতি বায়ন (২০১২)", "শ্ৰী ধ্ৰুৱজ্যোতি দাস (২০১২)", "শ্ৰী পবিত্ৰ বৈশ্য (২০১০)"]],
@@ -123,7 +128,9 @@ export class ModelConstants {
     public pastDate_ESS_2020: String = "২ অক্টোবৰ, ২০২০";
     public pastDate_WM_2021: String = "২৩ জানুৱাৰী, ২০২১";
     public pastDate_ESS_2021: String = "২ অক্টোবৰ, ২০২১";
-    public futureDate_SJEC_2022: String = "২৩ জানুৱাৰী, ২০২২";
+    public pastDate_SJEC_2022: String = "২৯-৩০ এপ্ৰিল, ২০২২";
+    public pastDate_ESS_2022: String = "২ অক্টোবৰ, ২০২২";
+    public futureDate_ESS_2023: String = "২ অক্টোবৰ, ২০২৩";
 
     //WED 2016
     public pastDates_WED_2016_title: String = "বিশ্ব পৰিৱেশ দিৱস";
@@ -155,10 +162,10 @@ export class ModelConstants {
 
     public pastDate_WM_2021_Total_Content: String[] = [this.pastDate_WM_2021_about, this.pastDate_WM_2021_inauguration];    
     public pastDate_WM_2021_Image_Urls: String[] = ["https://drive.google.com/uc?export=view&id=119DbiKyWwWMUf10bc7WqP1j9i5pxSH9b", 
-    "https://drive.google.com/uc?export=view&id=1nr4QkEKmse8Xd307TUcDaujp2kSnVkf9", "https://drive.google.com/uc?export=view&id=15EjI-Kwdsv1YU4pZlubK89MvTuCelR3T",
-    "https://drive.google.com/uc?export=view&id=1ptGIZhS_0CrXBlxiPpRZP1aUb564MK8n", "https://drive.google.com/uc?export=view&id=1ecZYNiFCI2ER2KXrAJ52k4gSXz1zd1gB",
-    "https://drive.google.com/uc?export=view&id=1dY-sNu2Uz8aFz1herdPOpijlSG2nGS4V", "https://drive.google.com/uc?export=view&id=1agTDbB0uEN0naZ7btdZhjyu2nAVPhRqP",
-    "https://drive.google.com/uc?export=view&id=1Zg0VXkfoUpnqG7swnMEl424yKkLTkB3V"];
+        "https://drive.google.com/uc?export=view&id=1nr4QkEKmse8Xd307TUcDaujp2kSnVkf9", "https://drive.google.com/uc?export=view&id=15EjI-Kwdsv1YU4pZlubK89MvTuCelR3T",
+        "https://drive.google.com/uc?export=view&id=1ptGIZhS_0CrXBlxiPpRZP1aUb564MK8n", "https://drive.google.com/uc?export=view&id=1ecZYNiFCI2ER2KXrAJ52k4gSXz1zd1gB",
+        "https://drive.google.com/uc?export=view&id=1dY-sNu2Uz8aFz1herdPOpijlSG2nGS4V", "https://drive.google.com/uc?export=view&id=1agTDbB0uEN0naZ7btdZhjyu2nAVPhRqP",
+        "https://drive.google.com/uc?export=view&id=1Zg0VXkfoUpnqG7swnMEl424yKkLTkB3V"];
 
     //PSS 2021
     public pastDate_ESS_2021_title: String = this.pastDate_ESS_2020_title;
@@ -167,7 +174,7 @@ export class ModelConstants {
         "অংশুমান শৰ্মাৰ তত্বাৱধানত উপস্থিত প্ৰাক্তন ছাত্ৰ-ছাত্ৰীসকলৰ মাজত লুডু আৰু দবা খেলৰ প্ৰতিযোগিতা পতা হয়। লুডু খেল প্ৰতিযোগিতাত হৰ্ষিতা পাঠকৰ দল জয়ী হোৱাৰ লগতে দবা খেলত "+
         "বিশ্বজিত গোস্বামী বিজয়ী হয়।";
     public pastDate_ESS_2021_culture: String = "বিয়লি ২ বজাত নিকেতনৰ প্ৰধানাচাৰ্য তথা প্ৰাক্তন ছাত্ৰ ভাৰতীৰ উপদেষ্টা শ্ৰীযুত ডিম্বেশ্বৰ কুমাৰ ডাঙৰীয়াই নিকেতনৰ আচাৰ্যা তথা প্ৰাক্তন ছাত্ৰ "+
-        "ভাৰতীৰ তত্বাৱধায়ক শ্ৰীযুতা তৃপ্তিলতা দাস ঠাকুৰীয়া ডাঙৰীয়ানী আৰু প্ৰাক্তন ছাত্ৰ ভাৰতীৰ সভানেত্ৰী শ্ৰী আইভি গোস্বামীৰ উপস্থিতিত মুকলি মঞ্চ উদ্বোধন কৰে। এটি সুমধুৰ সমৱেত সংগীতেৰে "+
+        "ভাৰতীৰ তত্বাৱধায়িকা শ্ৰীযুতা তৃপ্তিলতা দাস ঠাকুৰীয়া ডাঙৰীয়ানী আৰু প্ৰাক্তন ছাত্ৰ ভাৰতীৰ সভানেত্ৰী শ্ৰী আইভি গোস্বামীৰ উপস্থিতিত মুকলি মঞ্চ উদ্বোধন কৰে। এটি সুমধুৰ সমৱেত সংগীতেৰে "+
         "আৰম্ভণি হোৱা মুকলি মঞ্চখনৰ প্ৰতিভাশালী প্ৰাক্তন ছাত্ৰ-ছাত্ৰীৰ নৃত্য, গীত, কবিতা আবৃত্তি, কাহিনী বৰ্ণনা আদিয়ে শোভা বঢ়াই তোলে। এই সভাতেই আগন্তুক ৰূপালী জয়ন্তী সামৰণি অনুষ্ঠানৰ প্ৰাক্তন "+
         "ছাত্ৰ ভাৰতীৰ তৰফৰ পৰা ৰাখিব পৰা অনুষ্ঠান সম্বন্ধে এখন আলোচনা চক্ৰও পাতি কিছু গুৰুত্বপূৰ্ণ সিদ্ধান্ত গ্ৰহণ কৰা হয়। সৰ্বশেষত অসমৰ বিভিন্ন জাতি-জনগোষ্ঠীৰ সাজ-পাৰৰ ওপৰত আধাৰিত "+
         "আটকধুনীয়া সাজ-সজ্জা প্ৰদৰ্শনীৰে মুকলি মঞ্চৰ অনুষ্ঠানৰ সামৰণি পেলোৱা হয়। তাৰপিছতেই অসমৰ জাতীয় সংগীত পৰিৱেশনেৰে সন্মিলনখনিৰ ইতি পেলোৱা হয়।";    
@@ -178,12 +185,76 @@ export class ModelConstants {
 
     public pastDate_ESS_2021_Total_Content: String[] = [this.pastDate_ESS_2021_beginning, this.pastDate_ESS_2021_culture, this.pastDate_ESS_2021_Thanks];
     public pastDate_ESS_2021_Image_Urls: String[] = ["https://drive.google.com/uc?export=view&id=1MgalxymKIT97TibFCYtoX4-m4GnlX034",
-    "https://drive.google.com/uc?export=view&id=1mVewzJ_fKMkL3UExDO2p-pklybZcT00E","https://drive.google.com/uc?export=view&id=1xO0KIGxutrOHGzBdO_Lztvnpg0M-3arS",
-    "https://drive.google.com/uc?export=view&id=1Ykzqg8eyyQI5-GC2-bmX1hdOh9Ql8HhA","https://drive.google.com/uc?export=view&id=1o7ZIgRzC3a1VhDabxYBCWQbK9dykdgeC",
-    "https://drive.google.com/uc?export=view&id=1VSoOrxmZIoz1zgtwahCHn1GmeeRF5RuZ","https://drive.google.com/uc?export=view&id=1yIWInBJyW4a7fCc_5OqD1x1Mj88s06ZI",
-    "https://drive.google.com/uc?export=view&id=1J1GZImwOq60ZT1s63V-8XxTYMAedNz6T", "https://drive.google.com/uc?export=view&id=1PQZ_Y1QkvhLiim9-tDbfxITndDSTnVbb"];
+        "https://drive.google.com/uc?export=view&id=1mVewzJ_fKMkL3UExDO2p-pklybZcT00E","https://drive.google.com/uc?export=view&id=1xO0KIGxutrOHGzBdO_Lztvnpg0M-3arS",
+        "https://drive.google.com/uc?export=view&id=1Ykzqg8eyyQI5-GC2-bmX1hdOh9Ql8HhA","https://drive.google.com/uc?export=view&id=1o7ZIgRzC3a1VhDabxYBCWQbK9dykdgeC",
+        "https://drive.google.com/uc?export=view&id=1VSoOrxmZIoz1zgtwahCHn1GmeeRF5RuZ","https://drive.google.com/uc?export=view&id=1yIWInBJyW4a7fCc_5OqD1x1Mj88s06ZI",
+        "https://drive.google.com/uc?export=view&id=1J1GZImwOq60ZT1s63V-8XxTYMAedNz6T", "https://drive.google.com/uc?export=view&id=1PQZ_Y1QkvhLiim9-tDbfxITndDSTnVbb"];
    
     //SJEC 2022
-    public futureDate_SJEC_2022_title: String="ৰূপালী জয়ন্তীৰ সামৰণি অনুষ্ঠান";
+    public pastDate_SJC_2022_title: String = "ৰূপালী জয়ন্তী সামৰণি সমাৰোহ";
+    public pastDate_SJC_2022_beginning: String = "২৩ জানুৱাৰী, ২০২১ৰ পৰা আৰম্ভ হোৱা ৰূপালী জয়ন্তী বৰ্ষৰ সফল সামৰণি ২০২২ৰ বৰ্ষৰ ২৩ জানুৱাৰীত হয়৷ কিন্তু দুৰ্ভাগ্যজনকভাৱে ক'ৰ'ণা মহামাৰী পুনৰ প্ৰকোপ "+
+        "লোৱাৰ পৰিপ্ৰেক্ষিতত চৰকাৰৰ নতুন নিৰ্দেশনা মানি সামৰণি সমাৰোহৰ তাৰিখ অনিৰ্দিষ্ট কাললৈ পিছুৱাই দিব লগা হয়৷ পৰৱৰ্তী সময়ত পৰিস্থিতি অনুকুল হোৱাত সাধাৰণ সভাৰ জৰিয়তে সামৰণি সমাৰোহৰ নতুন দিন ২৯ "+
+        "আৰু ৩০ এপ্ৰিল ২০২২ ধাৰ্য কৰা হয়৷ সেই অনুসাৰে নিৰ্দিষ্ট দিন দুটাত সুকলমে অনুষ্ঠানটি উদযাপিত কৰা হয়৷";
+    public pastDate_SJC_2022_day_one_day: String = "২৯ তাৰিখে পুৱা প্ৰাক্তন ছাত্ৰ-ছাত্ৰীৰ উদ্যোগত আটক ধুনীয়াকৈ সাজি উলিওৱা \"ত্বক্ষ\" নামেৰে এটি আৰ্ট গেলেৰী উন্মোচন কৰা হয়৷ ক্ষেত্ৰী থানাৰ ভাৰপ্ৰাপ্ত আৰক্ষী "+
+        "বিষয়া শ্ৰদ্ধাৰ বিনন্দ বসুমতাৰীদেৱে উক্ত গেলেৰীটি উন্মোচন কৰে৷ উপস্থিত আটাইয়ে গেলেৰীটো পৰিদৰ্শন কৰি পৰৱৰ্তী কাৰ্যসূচীলৈ আগবঢ়া হয়৷ তাৰপাছত আটাইৰে সহযোগিতাত এটি বিশাল সাংস্কৃতিক শোভাযাত্ৰা উলিওৱা হয়৷ "+
+        "দুপৰীয়াৰ ভোজন গ্ৰহণ কৰাৰ পাছত প্ৰাক্তন ছাত্ৰ-ছাত্ৰীখিনিৰ উদ্যোগত তথা প্ৰাক্তন আৰু বৰ্তমান কাৰ্যৰত আচাৰ্য-আচাৰ্যাৰ উপস্থিতিত \"অন্তৰংগ আলাপ\" অনুষ্ঠানটি অনুষ্ঠিত কৰা হয়৷ এটা সমৱেত সংগীতেৰে আৰম্ভ হোৱা উক্ত "+
+        "অনুষ্ঠানটি প্ৰাক্তন ছাত্ৰ-ছাত্ৰীৰ লগতে আচাৰ্য-আচাৰ্যাৰ মাজত বাৰ্তালাপ, কবিতা আবৃত্তি, হাঁহি-ধেমালিৰ মাজেৰে আগবঢ়াই নিয়া হয়৷";
+    public pastDate_SJC_2022_day_one_night: String = "সন্ধিয়া বন্তি প্ৰজ্বলন আৰু সান্ধ্য বন্দনাৰ পাছত সাংস্কৃতিক মঞ্চ উদ্বোধন কৰাৰ পাছত নিকেতনৰ ছাত্ৰ-ছাত্ৰীসকলৰ দ্বাৰা পৰিৱেশিত বিভিন্ন অনুষ্ঠানেৰে নিশাৰ কাৰ্যসূচী আগবঢ়াই "+
+        "নিয়া হয়৷ ইয়াৰেই মাজতে প্ৰাক্তন ছাত্ৰীৰ দ্বাৰা এটি বাৰেবৰণীয়া নৃত্যও পৰিৱেশন কৰা হয়৷ অনুষ্ঠানৰ শেষৰ ফালে আমন্ত্ৰিত উদীয়মান শিশুশিল্পী আশ্বাস আয়ুস্মানে নিজৰে কণ্ঠেৰে উপস্থিত দৰ্শকক মুগ্ধ কৰি ৰাখে৷ সদৌ শেষত বৰ্তমান "+
+        "অসমৰ সংগীত জগতত নিজৰ প্ৰতিভাৰে সুনাম কঢ়িয়াবলৈ সক্ষম হোৱা নিকেতনৰে প্ৰাক্তন ছাত্ৰ হিমাংশু শৰ্মাৰ কণ্ঠত দুটি গীত পৰিৱেশনেৰে প্ৰথম দিনাৰ কাৰ্যসূচী অন্ত পৰে৷";
+    public pastDate_SJC_2022_day_two_day: String = "দ্বিতীয় দিনাৰ কাৰ্যসূচী অভিভাৱিকাসকলৰ অনুষ্ঠানেৰে আৰম্ভ কৰা হয়৷ তাৰ কিছুপৰ পিছতেই মুকলি সভাৰ শুভাৰম্ভ হয়৷ আমন্ত্ৰিত বিশিষ্ট ব্যক্তিৰ উপস্থিতি তেওঁলোকৰ বহুমূলীয়া "+
+        "ভাষণেৰে সভাখন আগবঢ়াই নিয়া হয়৷ উক্ত সভাতেই সমাৰোহৰ লগত সংগতি ৰাখি এখন স্মৰণিকা উন্মোচন কৰা হয়৷ মুকলি সভাৰ পাছত দুপৰীয়াৰ ভোজন গ্ৰহণ কৰা হয়৷";
+    public pastDate_SJC_2022_day_two_night: String = "সন্ধিয়া বন্তি প্ৰজ্বলন আৰু সান্ধ্য বন্দনা কৰা হয়৷ তাৰপাছতেই দ্বিতীয় নিশাৰ সাংস্কৃতিক মঞ্চ উদ্বোধন কৰা হয়৷ দ্বিতীয় দিনা মূলত: প্ৰাক্তন ছাত্ৰ-ছাত্ৰীৰ দ্বাৰা পৰিৱেশিত অনুষ্ঠান, "+
+        "একক সংগীত পৰিৱেশন, নৃত্য পৰিৱেশন, দলীয়া দিহা নাম, নাটক আদিৰে আগবাঢ়ে৷ তাৰেই পাছত আমন্ত্ৰণ কৰি অনা স্বনামধন্য শিল্পী তৰালী শৰ্মা বাইদেউৱে নিজৰ কণ্ঠেৰে সমূহ উপস্থিত দৰ্শকক মুগ্ধ কৰি ৰাখে৷ তৰালী বাৰ "+
+        "অনুষ্ঠানেৰে সমাৰোহৰ সামৰণি পৰে৷"
+    public pastDate_SJC_2022_Thanks: String = "প্ৰাক্তন ছাত্ৰ-ছাত্ৰীৰফালৰ পৰা অনুষ্ঠানবোৰ সুচাৰুৰূপে চলাই নিয়াৰ বাবে আটাইবোৰ প্ৰাক্তন ছাত্ৰ-ছাত্ৰী বিশেষকৈ আগভাগ লোৱা হিমাংশু শৰ্মা, বৰষাৰাণী দাস, দৰদী তালুকদাৰ, "+
+        "প্ৰত্যুষৰঞ্জন ডেকা, কংকনা বৈশ্য (২০১৮), নিশাৰণ ঠাকুৰীয়া, মৃগাংক শৰ্মা, তৰু কলিতা, হৃদয় বৈশ্য, ৰাহুল গোস্বামী, প্ৰান্তৰ মেধি, ধীৰাজ বৈশ্য, দেৱজিৎ দাস, অজয় কাকতি, মানসী তালুকদাৰ, ভনিমা বৈশ্য, অনুস্মিতা বৈশ্য, ভাগ্যশ্ৰী বৈশ্য, "+
+        "নিতু বৈশ্য, তনভী গোস্বামী, অংশুমান শৰ্মা, দিগন্ত কুমাৰ, দ্বীপজ্যোতি মেধি, বৈভৱ কলিতা, চিন্ময় পাল, কৌশিক নাথ, শংকৰজ্যোতি বৈশ্য, উজ্জলনন্দন কাকতি আদিলৈ অশেষ ধন্যবাদ থাকিল।";
+
+    public pastDate_SJC_2022_Total_Content: String[] = [this.pastDate_SJC_2022_beginning, this.pastDate_SJC_2022_day_one_day, this.pastDate_SJC_2022_day_one_night,
+        this.pastDate_SJC_2022_day_two_day, this.pastDate_SJC_2022_day_two_night, this.pastDate_SJC_2022_Thanks];
+    public pastDate_SJC_2022_Image_Urls: String[] = ["https://drive.google.com/uc?export=view&id=1xGj9jyyQHgCrsTWjTeWCNmvnwv79DrDR",
+        "https://drive.google.com/uc?export=view&id=1xZNrCdfFqTY_U1VO1_eysbGGdy-HTPzf","https://drive.google.com/uc?export=view&id=1naoDCawB0YKyDFgDCa7ccNBS_VcjSN1O",
+        "https://drive.google.com/uc?export=view&id=1bjCqz2Sgc5bjuxju9_neec9v_Nb4qh-L","https://drive.google.com/uc?export=view&id=1dSsjVvQ7T1bEDB0r8Nu0XvT-mgrLKIVH",
+        "https://drive.google.com/uc?export=view&id=1IOzLN32o7roKC0hgsY1kQJZGp7RJAcVn","https://drive.google.com/uc?export=view&id=1hj2YEDcWPiMjR9RQwAMfWCmNvfKBH1hK",
+        "https://drive.google.com/uc?export=view&id=1pWXYrteYzcY2wDq-Z3_a5Ul-95kUiGhu","https://drive.google.com/uc?export=view&id=1dzX9SgVZCKa4DWkz7u1qHdHyIDPYddZm",
+        "https://drive.google.com/uc?export=view&id=1kG0o59CieHRc_Jy63gdQvtui6Rx6UEXL","https://drive.google.com/uc?export=view&id=1CXwWjpfL6csQcZVMPG0ATl2ceQdgsJb9",
+        "https://drive.google.com/uc?export=view&id=1cOARqP6j8C1uqyuIY0zL_ktOQra71qpv","https://drive.google.com/uc?export=view&id=1_i1Ip-_MOAnCqxaWi_-B095AZr1UYgG9",
+        "https://drive.google.com/uc?export=view&id=1Wak8OzM9mBZZh6WHxXtFEpxnNnBNZ_L5","https://drive.google.com/uc?export=view&id=1LhG-hQbgbQZ_h0xq7J23z-B60UF4Xc08",
+        "https://drive.google.com/uc?export=view&id=1etEwJHZX8wneY9yzEu-O9nqnlVQLZPdU","https://drive.google.com/uc?export=view&id=17t281apdGt6PQNRcbZOr2e3LS4SQKsGj",
+        "https://drive.google.com/uc?export=view&id=1SNaABW3vIC2IgnatxrvJow03AHTtd0g6","https://drive.google.com/uc?export=view&id=1NYhq2hdp1eW2SJ0MTz5VEKg5btmFJOhF",
+        "https://drive.google.com/uc?export=view&id=1NSvUZ_522mkmM_iXUYYmCSG912DLjNjw","https://drive.google.com/uc?export=view&id=1JjM197m6D5gSuxfUT-QabZN9Ai2LE4nS",
+        "https://drive.google.com/uc?export=view&id=15Br28uT77PNw8kmmC6BbjH9e7GAJlP4b","https://drive.google.com/uc?export=view&id=1OzEZijhauiuJ1Hc-8RRndx2YP6BI_Guf",
+        "https://drive.google.com/uc?export=view&id=1SCThxBKrxZKhsv0AxZqfa47txgV8CQ4X","https://drive.google.com/uc?export=view&id=11a2URHc8zSMrCwgEIjutoWm9cLMTiTC0",
+        "https://drive.google.com/uc?export=view&id=1DnW4FKpJurjQ6-XlfMA_hM2gef-XAdFZ","https://drive.google.com/uc?export=view&id=1TKo-wSxTI2xytbNEIGsodm2wttulBNSc",
+        "https://drive.google.com/uc?export=view&id=1cUvnUFn4A8zGiVG2DbsQbA3yyJWdEOE2","https://drive.google.com/uc?export=view&id=1gDH7x-F9Lxc8S42zxBJ46NRxurjEd1nG"];
+   
+    //ESS 2022   
+    public pastDate_ESS_2022_title: String = this.pastDate_ESS_2020_title;
+    public pastDate_ESS_2022_beginning: String = "বিগত বৰ্ষৰ দৰে এইবাৰো গান্ধী জয়ন্তীৰ দিনা প্ৰাক্তন ছাত্ৰ ভাৰতীৰ উদ্যোগত প্ৰাক্তন ছাত্ৰ-ছাত্ৰী সন্মিলনখনি অনুষ্ঠিত কৰা হয়। দূৰ্গা পূজাৰ বাবে দিনটো অনুষ্টুপীয়াকৈ পালন কৰা হয়৷ "+
+        "বন্তি প্ৰজ্বলনেৰে অনুষ্ঠানটিৰ আৰম্ভণি কৰি ভাৰতীৰ উপদেষ্টা শ্ৰীযুত নৰেশ্বৰ দাসদেৱ, নিকেতনৰ প্ৰধানাচাৰ্য শ্ৰীযুত ডিম্বেশ্বৰ কুমাৰদেৱ আৰু ভাৰতীৰ তত্বাৱধায়িকা শ্ৰীযুতা তৃপ্তিলতা দাস ঠাকুৰীয়া ডাঙৰীয়ানীৰ বক্তৃতাৰে অনুষ্ঠান আগবঢ়াই "+
+        "নিয়া হয়৷ ইয়াৰ মাজতে এইবাৰ প্ৰাক্তন ছাত্ৰ-ছাত্ৰীৰ উদ্যোগত এওঁলোকৰেই চিন্তাৰ সমৃদ্ধ এখনি আলোচনী \"প্ৰত্যগ্ৰ\" উন্মোচন কৰা হয়৷ অনুষ্ঠানৰ মাজে মাজে প্ৰাক্তন ছা্ত্ৰ-ছাত্ৰীৰ দ্বাৰা গীত-কবিতা আদি পৰিৱেশন কৰা হয়৷";
+    public pastDate_ESS_2022_mid_one: String = "উল্লেখ্য যে এইবেলি নয়ন জ্যোতি বায়ন, হীৰকজ্যোতি ডেকা, ধ্ৰুৱজ্যোতি দাস, সীমান্তজ্যোতি বৈশ্য, প্ৰত্যুষৰঞ্জন ডেকা, দৰদী তালুকদাৰ, নিশাৰণ ঠাকুৰীয়া, বৰষাৰাণী দাস, "+
+        "কংকনা বৈশ্য, হিমাংগ বৈশ্য, আইভি গোস্বামী, অংকিতা বৈশ্য (২০১৯)ৰ উদ্যোগত গৰম বন্ধৰ পৰা \"জ্ঞানম\" নামেৰে নিকেতনৰ ৮ম, ৯ম আৰু ১০ম শ্ৰেণীৰ ছাত্ৰ-ছাত্ৰীসকলৰ বাবে সৰ্বাংগীন উন্নয়নৰ লক্ষ্য আগত ৰাখি পাঠ্যক্ৰমৰ "+
+        "লগতে অন্যান্য আনুসাংগিক বিষয়ত শিক্ষাদানৰ ব্যৱস্থা কৰা হৈছিল৷ পৰৱৰ্তী সময়ত সেয়া এৰাব নোৱাৰা কাৰণত বন্ধ কৰিব লগা হয়৷ এই \"জ্ঞানম\"ৰ ফালৰ পৰা গৰম বন্ধৰ শেষৰটি কালাংশত কুইজ আৰু আকস্মিক বক্তৃতা অনুষ্ঠিত কৰা "+
+        "হৈছিল৷ উক্ত অনুষ্ঠানত এই প্ৰতিযোগিতাসমূহত পাৰদৰ্শিতা দেখুৱাবলৈ সক্ষম হোৱা ছাত্ৰ-ছাত্ৰীখিনিক বঁটা প্ৰদান কৰা হয়৷ তদুপৰি প্ৰাক্তন ছাত্ৰ-ছাত্ৰী সন্মিলন, ২০২১ৰ আয়োজন কৰা খেল-ধেমালিৰ দবা খেলৰ বিজয়ীকো বঁটা প্ৰদান কৰা হয়৷ ";
+    public pastDate_ESS_2022_Thanks: String = "অনুষ্ঠানটি সুচাৰুৰূপে চলাই নিয়াৰ বাবে আটাইবোৰ প্ৰাক্তন ছাত্ৰ-ছাত্ৰী বিশেষকৈ আগভাগ লোৱা সীমান্তজ্যোতি বৈশ্য, হিমাংশু শৰ্মা, বৰষাৰাণী দাস, দৰদী তালুকদাৰ, কংকনা বৈশ্য (২০১৮), "+
+        "নিশাৰণ ঠাকুৰীয়া, প্ৰত্যুষৰঞ্জন ডেকা, বৈভৱ কলিতা, অনুস্মিতা বৈশ্য, ভনিমা বৈশ্য, হিৰণ্ময় বৰুৱা, অভিজিৎ বৈশ্য, জ্যোতিপ্ৰসাদ তালুকদাৰ, ৰাহুল বৰ্মন, তপন বৰদলৈ, ভূমিকা দাস, ভূপালী ঠাকুৰীয়া, ডলী কাকতি, অলয় ডেকা, জন টেৰাং "+ 
+        "আদিলৈ অশেষ ধন্যবাদ থাকিল।";
+
+    public pastDate_ESS_2022_Total_Content: String[] = [this.pastDate_ESS_2022_beginning, this.pastDate_ESS_2022_mid_one, this.pastDate_ESS_2022_Thanks];
+    public pastDate_ESS_2022_Image_Urls: String[] = ["https://drive.google.com/uc?export=view&id=1Li3rBaRNDeeqeFtm6EUmuCq3IHz0vumw",
+        "https://drive.google.com/uc?export=view&id=1PvWDD05Uvcb32EHaWkZxmhZ10rK1VhfH","https://drive.google.com/uc?export=view&id=102nf4IwCFIVBrfsYpZ1IZjZNtPwqyP0X",
+        "https://drive.google.com/uc?export=view&id=1k1sqL-9elg9bGlH6dgO2oFLo5_fyv_u5","https://drive.google.com/uc?export=view&id=1bAGqWfeQDOtrapLPBUYc-6_uVHwWS6sr",
+        "https://drive.google.com/uc?export=view&id=13X0MR9xFdmeJDWcjqbJFYuBqVEI75Ig8","https://drive.google.com/uc?export=view&id=12DQE0hYbmvug1YUaJEYvNqpHKWj-y9LV",
+        "https://drive.google.com/uc?export=view&id=1IqUCGV9DJZSGqX37BzdhhWD5BybPCNPO","https://drive.google.com/uc?export=view&id=16hlX9lymj3CrM9-SD9X2bHVJRVuK1jXl",
+        "https://drive.google.com/uc?export=view&id=1Q15fWN5Hdj_A_XxX8w1uN0P8-QQQuWiE","https://drive.google.com/uc?export=view&id=1me2D4WlTb-TiGVSoAkevgqUe5SQjv07t",
+        "https://drive.google.com/uc?export=view&id=11fH_sJdPqi3-UicDIeb--wTXLfFpVRx1","https://drive.google.com/uc?export=view&id=1mChBhDNmG0RaKc6Stqr5Tn467GHJCQe9",
+        "https://drive.google.com/uc?export=view&id=1t8Rk7-8GqcG_8YaDSN9V60jOJ3XkXPvm","https://drive.google.com/uc?export=view&id=1sfBzxjIw7rXXpZEJVkZvXST2bEu_wSVJ",
+        "https://drive.google.com/uc?export=view&id=1n1rWMmig6HBh_RbhEbI5k63SSOPFElBm","https://drive.google.com/uc?export=view&id=1WThNy1teAc0smpRCm38PAn7UtuA1dP1h",
+        "https://drive.google.com/uc?export=view&id=1Jw-6ByII8RxpX_vjbJg6qOOIt1NHj5qF","https://drive.google.com/uc?export=view&id=1AV8RcqNGwgS-r4ubbLskSvvjSslSHEjp",
+        "https://drive.google.com/uc?export=view&id=17lyyic9vN0SbH6RlmD5GkjdXTg9UVOcm"];
+
+    public futureDate_ESS_2023_title: String="প্ৰাক্তন ছাত্ৰ-ছাত্ৰী সন্মিলন";
 
 }

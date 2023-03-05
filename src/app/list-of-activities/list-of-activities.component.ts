@@ -24,9 +24,9 @@ export class ListOfActivitiesComponent implements OnInit {
     // fill activities chronology map here
     this.activitiesDateWiseMap.set(this.modelConstant.pastActivities,
       [this.modelConstant.pastDate_WED_2016, this.modelConstant.pastDate_ESS_2020,
-      this.modelConstant.pastDate_WM_2021, this.modelConstant.pastDate_ESS_2021]);
+      this.modelConstant.pastDate_WM_2021, this.modelConstant.pastDate_ESS_2021, this.modelConstant.pastDate_SJEC_2022, this.modelConstant.pastDate_ESS_2022]);
     this.activitiesDateWiseMap.set(this.modelConstant.upcomingActivities,
-      [this.modelConstant.futureDate_SJEC_2022]);
+      [this.modelConstant.futureDate_ESS_2023]);
 
     // fill date wise details map here 
     this.eventWiseDetailsMap.set(this.modelConstant.pastDate_WED_2016,
@@ -48,8 +48,18 @@ export class ListOfActivitiesComponent implements OnInit {
       this.modelConstant.pastDate_ESS_2021_Total_Content,
       this.modelConstant.pastDate_ESS_2021_Image_Urls])
 
-    this.eventWiseDetailsMap.set(this.modelConstant.futureDate_SJEC_2022,
-      [this.modelConstant.futureDate_SJEC_2022_title])
+    this.eventWiseDetailsMap.set(this.modelConstant.pastDate_SJEC_2022,
+      [this.modelConstant.pastDate_SJC_2022_title,
+      this.modelConstant.pastDate_SJC_2022_Total_Content,
+      this.modelConstant.pastDate_SJC_2022_Image_Urls])
+
+    this.eventWiseDetailsMap.set(this.modelConstant.pastDate_ESS_2022,
+        [this.modelConstant.pastDate_ESS_2022_title,
+        this.modelConstant.pastDate_ESS_2022_Total_Content,
+        this.modelConstant.pastDate_ESS_2022_Image_Urls])  
+
+    this.eventWiseDetailsMap.set(this.modelConstant.futureDate_ESS_2023,
+      [this.modelConstant.futureDate_ESS_2023_title])
 
   }
 
